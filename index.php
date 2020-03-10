@@ -10,9 +10,14 @@
             $continent = 'Asia';
             $desPays = getCountriesByContinent($continent);
          ?>
-       <code>
+       <!-- <code>
          <?php var_dump($desPays[0]); ?>
-      </code>
+      </code> -->
+      <?php
+         foreach ($desPays as $unPays) {
+          echo $unPays->Name."<br />";
+         }
+        ?>
     </div>
     <p></p>
     <section class="jumbotron text-center">
