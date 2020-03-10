@@ -45,20 +45,17 @@
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-             aria-expanded="false">Continent</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-
+          <div class="nav-link dropdown-toggle clickable" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Continent</div>
+          <div class="dropdown-menu clickable" aria-labelledby="dropdown01">
             <?php  
-
               require_once 'inc/manager-db.php';
               $desContinents = getAllContinents();
               foreach ($desContinents as $unContinent) {
-
                 $leContinent = $unContinent->Continent ; 
-              
-                  echo '<a class="dropdown-item" href="index.php?Continent='.$leContinent.'">'.$leContinent.'</a>';
-                  
+                ?>
+                <div class="dropdown-item" onclick="listePays('<?php echo $leContinent; ?>')"><?php echo $leContinent; ?></div>
+                <?php
               }
             ?> 
           </div>
