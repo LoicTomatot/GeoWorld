@@ -1,0 +1,928 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dro",
+				"dropdown-toggle"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"bo",
+				"box-shadow\tproperty"
+			],
+			[
+				"ani",
+				"animation-duration\tproperty"
+			],
+			[
+				"search",
+				"searchthing"
+			],
+			[
+				"c_",
+				"c_search"
+			],
+			[
+				"nbr",
+				"nbrElement"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"actua",
+				"actualLanguage"
+			],
+			[
+				"tok",
+				"token_name"
+			],
+			[
+				"_SE",
+				"_SESSION"
+			],
+			[
+				"_S",
+				"_SESSION"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"_",
+				"_COOKIE"
+			],
+			[
+				"transf",
+				"transform\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"tra",
+				"transform-origin\tproperty"
+			],
+			[
+				"trans",
+				"transition-duration\tproperty"
+			],
+			[
+				"mess",
+				"messagesParPage"
+			],
+			[
+				"premi",
+				"premiereEntree"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"stat",
+				"statut"
+			],
+			[
+				"poi",
+				"position\tproperty"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"url",
+				"urljson"
+			],
+			[
+				"au",
+				"authorjson"
+			],
+			[
+				"nom",
+				"nomjson"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"curl",
+				"curl_setopt"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"terme",
+				"termes_a_remplacer"
+			],
+			[
+				"tail",
+				"taille_maxi"
+			],
+			[
+				"tai",
+				"taillepp"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"id",
+				"id_membre"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"membre",
+				"membre"
+			],
+			[
+				"fichier",
+				"fichierbackground"
+			],
+			[
+				"bac",
+				"background_edit"
+			],
+			[
+				"biogr",
+				"biographie_edit"
+			],
+			[
+				"pseudo",
+				"pseudo_edit"
+			],
+			[
+				"backgr",
+				"backgroundtemp_name"
+			],
+			[
+				"backgrou",
+				"background_edit"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"tras",
+				"transition-duration\tproperty"
+			],
+			[
+				"dat",
+				"dateconvertie"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"fee",
+				"feedback_email"
+			],
+			[
+				"feed",
+				"feedback_message"
+			],
+			[
+				"subje",
+				"subject_str"
+			],
+			[
+				"transfo",
+				"transform\tproperty"
+			],
+			[
+				"est",
+				"estAdmin"
+			],
+			[
+				"onmouse",
+				"onmouseout\tAttr"
+			],
+			[
+				"inl",
+				"inline\tdisplay"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"mem",
+				"membre_liste"
+			],
+			[
+				"form",
+				"form_modif_fiche"
+			],
+			[
+				"nouv",
+				"nouv_description"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"only",
+				"onlyliked"
+			],
+			[
+				"onli",
+				"onlyliked"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"liste",
+				"listenbrElement"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"text-de",
+				"text-decoration\tproperty"
+			],
+			[
+				"close",
+				"closeCursor"
+			],
+			[
+				"requ",
+				"requete_likes"
+			],
+			[
+				"animation",
+				"animation-name\tproperty"
+			],
+			[
+				"deco",
+				"deconnexion"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"anima",
+				"animation-delay\tproperty"
+			],
+			[
+				"transitio",
+				"transition-delay\tproperty"
+			],
+			[
+				"img",
+				"img_add_help"
+			],
+			[
+				"border",
+				"border-top\tproperty"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"onmou",
+				"onmouseleave\tAttr"
+			],
+			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"transt",
+				"transition-duration\tproperty"
+			],
+			[
+				"bol",
+				"bolder\tfont-weight"
+			],
+			[
+				"size",
+				"size\tproperty"
+			],
+			[
+				"javas",
+				"javascript"
+			],
+			[
+				"tab",
+				"tableau_lien_se"
+			],
+			[
+				"descr",
+				"description_se"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"vale",
+				"valeurModo"
+			],
+			[
+				"com",
+				"compte"
+			],
+			[
+				"id_memb",
+				"id_membre_supp"
+			],
+			[
+				"lien",
+				"lien_mail"
+			],
+			[
+				"cry",
+				"cryptcode_aleatoire"
+			],
+			[
+				"sessio",
+				"session_destroy"
+			],
+			[
+				"session",
+				"session_id"
+			],
+			[
+				"co",
+				"confirm_mdp"
+			],
+			[
+				"tran",
+				"transition-duration\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"page",
+				"pageActuelle"
+			],
+			[
+				"nombre",
+				"nombreDePages"
+			],
+			[
+				"fot",
+				"font-weight\tproperty"
+			],
+			[
+				"a",
+				"default\tcursor"
+			],
+			[
+				"tabe",
+				"tableau_se_clean"
+			],
+			[
+				"tablea",
+				"tableau_se_clean"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"tableau",
+				"tableau_se_clean"
+			],
+			[
+				"substr",
+				"substr"
+			],
+			[
+				"num",
+				"numAnnee"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"mois",
+				"moisChoisi"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"transi",
+				"transition-duration\tproperty"
+			],
+			[
+				"lie",
+				"lien_se"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"sha",
+				"box-shadow\tproperty"
+			],
+			[
+				"bakc",
+				"background-color\tproperty"
+			],
+			[
+				"Ban",
+				"bahnschrift"
+			],
+			[
+				"Stop",
+				"StopOrbit"
+			],
+			[
+				"Show",
+				"ShowMessages"
+			],
+			[
+				"Fade",
+				"FadeIn"
+			],
+			[
+				"Goto",
+				"GotoLocation"
+			],
+			[
+				"Wait",
+				"WaitMessage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1994,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3048,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"the",
+				"Material Theme: Info"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"",
+				"Material Theme: Activate theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"act",
+				"Material Theme: Activate theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 194.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/GeoWorld"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/GeoWorld/assets/bootstrap-4.2.1-dist/css/bootstrap.css",
+		"/C/wamp64/www/GeoWorld/inc/manager-db.php",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/PPE/PPE4/world/ressources/world-schema.sql",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/PPE/PPE4/world/ressources/world-data.sql",
+		"/C/wamp64/www/GeoWorld/inc/connect-db.php",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/03-Express-todo/ToDoList/todolist.js",
+		"/C/wamp64/www/protocole_se/vues/connexion/v_connexion.php",
+		"/C/wamp64/www/protocole_se/vues/v_connectbdd.php",
+		"/C/wamp64/www/protocole_se/vues/explorer/v_search_liste_archive.php",
+		"/C/wamp64/www/protocole_se/vues/news/v_news_notification.php",
+		"/C/wamp64/www/protocole_se/vues/explorer/v_like.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_settings.php",
+		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_moderateur.php",
+		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_membre.php",
+		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_anonyme.php",
+		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_admin.php",
+		"/C/wamp64/www/protocole_se/vues/explorer/v_liste_archive.php",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/views/footer.ejs",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/views/page.ejs",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/views/header.ejs",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/index.js",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/tests/monApp.js",
+		"/C/wamp64/www/protocole_se/vues/compte/mesfiches/v_mesfiches.php",
+		"/C/wamp64/www/protocole_se/lib/js/jquery.js",
+		"/C/wamp64/www/protocole_se/vues/feedback/v_envoie_formulaire.php",
+		"/C/wamp64/www/protocole_se/sheet-generator-se.sublime-project",
+		"/C/wamp64/www/protocole_se/vues/v_upload.php",
+		"/C/wamp64/www/protocole_se/php.ini",
+		"/C/wamp64/www/protocole_se/localization.php",
+		"/C/wamp64/www/protocole_se/lib/gettext/gettext.inc",
+		"/C/wamp64/www/protocole_se/vues/news/v_news_article.php",
+		"/C/wamp64/www/Drepagir/index.php",
+		"/C/wamp64/www/cocovoiturageTP1/util/fonctions.php",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM5/Jquery/cocovoiturageTP1/index.php",
+		"/C/wamp64/www/Drepagir/controleurs/c_admin.php",
+		"/C/wamp64/www/Drepagir/vues/accueil/v_accueil.php",
+		"/C/wamp64/www/Drepagir/vues/v_entete.php",
+		"/C/wamp64/www/Drepagir/vues/admin/v_mdp.php",
+		"/C/wamp64/www/Drepagir/vues/admin/v_gestion_questions.php",
+		"/C/Users/Alan DESMURS/AppData/Local/Temp/WaterMars.sc",
+		"/C/wamp64/bin/apache/apache2.4.37/bin/php.ini",
+		"//se-archive-project.net@81/DavWWWRoot/vues/v_upload.php",
+		"/C/Users/Alan DESMURS/AppData/Local/Temp/se_sheet_database.sql",
+		"/C/wamp64/www/protocole_se/bdd/se_sheet_database.sql",
+		"/C/wamp64/www/protocole_se/controleurs/c_admin.php",
+		"/C/wamp64/www/protocole_se/vues/news/news_edit/v_newsedit.php",
+		"/C/wamp64/www/protocole_se/vues/news/v_news.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_savesettings.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_editprofil.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_profil.php",
+		"/C/wamp64/www/protocole_se/controleurs/c_profil.php",
+		"/C/wamp64/www/protocole_se/vues/news/news_edit/v_newseditlist.php",
+		"/C/Users/Alan DESMURS/Downloads/dbs202188.sql",
+		"/C/wamp64/www/protocole_se/vues/v_choix_lang.php",
+		"/C/wamp64/www/protocole_se/controleurs/c_newsedit.php",
+		"/C/wamp64/www/protocole_se/vues/news/news_edit/v_message_delete_article.php",
+		"/C/wamp64/www/protocole_se/vues/news/news_edit/v_newseditarticle.php",
+		"/C/wamp64/www/protocole_se/vues/news/news_edit/v_message_send_article.php",
+		"/C/wamp64/www/protocole_se/vues/barres_outils/v_barre_outils_admin.php",
+		"/C/wamp64/www/protocole_se/image/ressources/index.php",
+		"/C/wamp64/www/protocole_se/lib/php/BBCode.class.php",
+		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa9228.4407/BBCode.class.php",
+		"/C/wamp64/www/protocole_se/vues/v_entete.php",
+		"/C/wamp64/www/protocole_se/lib/js/bbcode.js",
+		"/C/wamp64/www/protocole_se/vues/news/index.php",
+		"/C/wamp64/www/protocole_se/vues/feedback/v_formulaire.php",
+		"/C/wamp64/www/protocole_se/vues/v_generate.php",
+		"/C/wamp64/www/protocole_se/vues/v_accueil.php",
+		"/C/wamp64/www/protocole_se/vues/v_finpage.php",
+		"/C/Program Files (x86)/Steam/steamapps/common/SpaceEngine/addons/1975403856/catalogs/planets/SolarSys.sc",
+		"/C/Program Files (x86)/Steam/steamapps/workshop/content/314650/1975403856/catalogs/planets/SolarSys.sc",
+		"/C/wamp64/www/protocole_se/vues/credits/v_credits.php",
+		"/C/wamp64/www/protocole_se/vues/explorer/v_fiche_astre.php",
+		"/C/wamp64/www/Bot_SE_Archive_Project/.env",
+		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2018-2019/utilisateurs.sql",
+		"/C/wamp64/www/Bot SE Archive Project/.env",
+		"/C/wamp64/www/protocole_se/bot/.env",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_consulteprofil.php",
+		"/C/wamp64/www/protocole_se/vues/compte/admin/v_membres_admin.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_erreur_profil_membre.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_modificationprofil.php",
+		"/C/wamp64/www/protocole_se/vues/connexion/v_post_inscription.php",
+		"/C/wamp64/www/protocole_se/vues/v_barre_outils.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_suppressioncompte.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_modificationidentifiants.php",
+		"/C/wamp64/www/siteweb/pages/compte/vues/v_head_utilisateurscss.html",
+		"/C/wamp64/www/siteweb/pages/compte/p_connexion/edit_profile.php",
+		"/C/wamp64/www/siteweb/pages/compte/fonctions/expiresession.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/v_modificationprofil2.php",
+		"/C/wamp64/www/protocole_se/vues/compte/admin/v_modifaction_fiches.php",
+		"/C/wamp64/www/protocole_se/lib/js/fct.js",
+		"/C/wamp64/www/protocole_se/vues/v_choix_date_fiche.php",
+		"/C/wamp64/www/protocole_se/styles/style.css",
+		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa21148.41307/se_sheet_database.sql",
+		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa11768.39151/se_sheet_database.sql",
+		"/C/wamp64/www/protocole_se/lib/DBDump/dumper.php",
+		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa5820.27487/se_sheet_database.sql",
+		"/C/wamp64/www/protocole_se/bdd/dbs202188.sql",
+		"/C/wamp64/www/protocole_se/lib/DBDump/demo.php",
+		"/C/wamp64/www/protocole_se/controleurs/c_membre.php",
+		"/C/wamp64/www/protocole_se/controleurs/c_moderateur.php",
+		"/C/wamp64/www/protocole_se/vues/compte/profil/index.php",
+		"/C/wamp64/www/protocole_se/vues/compte/admin/v_export.php",
+		"/C/wamp64/www/protocole_se/vues/mdp_oublier/v_traitement_mail.php",
+		"/C/wamp64/www/protocole_se/vues/v_header.php",
+		"/C/wamp64/www/protocole_se/vues/compte/v_barre_navigation_anonyme.php",
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_barre_navigation_moderateur.php",
+		"/C/wamp64/www/protocole_se/vues/compte/membre/v_barre_navigation_membre.php",
+		"/C/wamp64/www/protocole_se/vues/compte/admin/v_barre_navigation_admin.php",
+		"/C/wamp64/www/protocole_se/vues/help/v_traduire_help.php",
+		"/C/wamp64/www/protocole_se/lib/php/fct.php",
+		"/C/wamp64/www/protocole_se/styles/js/fct.js",
+		"/C/wamp64/www/protocole_se/fct.php",
+		"/C/wamp64/www/protocole_se/lib/clipboardjs/clipboard.js",
+		"/C/wamp64/www/protocole_se/lib/clipboardjs/clipboard.min.js",
+		"/C/wamp64/www/protocole_se/vues/compte/admin/v_fiches_admin.php",
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_fiches_moderateur.php",
+		"/C/wamp64/www/protocole_se/vues/compte/admin/v_modifier_fiche_admin.php",
+		"/C/wamp64/www/protocole_se/controleurs/c_mesfiches.php",
+		"/C/wamp64/www/protocole_se/vues/compte/mesfiches/v_modifier_mesfiches.php",
+		"/C/wamp64/www/protocole_se/vues/compte/mesfiches/v_supprimer_screenshot_mesfiches.php",
+		"/C/wamp64/www/protocole_se/vues/compte/mesfiches/v_modifaction_mesfiches.php",
+		"/C/wamp64/www/protocole_se/vues/compte/mesfiches/v_supprimer_mesfiches.php",
+		"/C/wamp64/www/protocole_se/controleurs/c_explore.php",
+		"/C/wamp64/www/protocole_se/.htaccess",
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_supprimer_screenshot_moderateur.php",
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_supprimer_fiche_moderateur.php",
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_modifier_fiche_moderateur.php"
+	],
+	"find":
+	{
+		"height": 70.4
+	},
+	"find_in_files":
+	{
+		"height": 164.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"menu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1939,
+								1939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 702.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 87.0
+	},
+	"pinned_build_system": "",
+	"project": "geoworld.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
