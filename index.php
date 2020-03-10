@@ -3,21 +3,26 @@
 <main role="main" class="flex-shrink-0">
 
   <div class="container">
-    <h1>Les pays en Asie </h1>
+    
+      <?php if(isset($_GET['Continent'])) { 
+
+        $leContinentSelec = $_GET['Continent'];
+          ?>
+        <h1>Les pays en <?php echo $leContinentSelec; ?> </h1>
+
+              
     <div>
         <?php
-            require_once 'inc/manager-db.php';
-            $continent = 'Asia';
-            $desPays = getCountriesByContinent($continent);
-         ?>
-       <!-- <code>
-         <?php var_dump($desPays[0]); ?>
-      </code> -->
-      <?php
+          require_once 'inc/manager-db.php';
+            
+          //$continent = '$leContinentSelec';
+          $desPays = getCountriesByContinent($leContinentSelec);
+         
          foreach ($desPays as $unPays) {
           echo $unPays->Name."<br />";
-         }
-        ?>
+         } 
+      }
+    ?>
     </div>
     <p></p>
     <section class="jumbotron text-center">

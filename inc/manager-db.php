@@ -24,6 +24,15 @@ function getCountriesByContinent($continent)
 function getAllCountries()
 {
   global $pdo;
-  $query = 'SELECT * FROM Country;';
+  $query = 'SELECT  * FROM Country;';
+  return $pdo->query($query)->fetchAll();
+}
+/** Obtenir la liste des continents
+ * @return liste d'objets
+ */
+function getAllContinents()
+{
+  global $pdo;
+  $query = 'SELECT DISTINCT Continent FROM Country;';
   return $pdo->query($query)->fetchAll();
 }
