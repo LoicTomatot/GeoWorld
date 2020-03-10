@@ -47,10 +47,14 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Continents</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Asie</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown02">
-              Test
+            <div class="dropright">
+              <a class="dropdown-item dropdown-toggle" href="#" id="dropdownpays01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Asie</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownpays01">
+                <div class="dropdown-item">Huwan</div>
+              </div>
             </div>
+            <div class="dropdown-item" type="button">Europe</div>
+            <div class="dropdown-item" type="button">Amérique</div>
           </div>
         </li>
         
