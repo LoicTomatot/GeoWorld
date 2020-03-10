@@ -49,7 +49,7 @@
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <div class="dropright">
               <a class="dropdown-item dropdown-toggle" href="#" id="dropdownpays01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Asie</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownpays01">
+              <div class="btn-group dropright" aria-labelledby="dropdownpays01">
                 <div class="dropdown-item">Huwan</div>
               </div>
             </div>
