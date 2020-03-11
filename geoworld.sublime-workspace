@@ -520,19 +520,37 @@
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 1994,
+				"buffer_size": 3006,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "header.php",
+			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 3048,
+				"buffer_size": 1785,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2070,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/fct.js",
+			"settings":
+			{
+				"buffer_size": 167,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -606,10 +624,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/GeoWorld"
+		"/C/wamp64/www/GeoWorld",
+		"/C/wamp64/www/GeoWorld/css",
+		"/C/wamp64/www/GeoWorld/js"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/GeoWorld/javascripts.php",
+		"/C/wamp64/www/protocole_se/vues/v_entete.php",
+		"/C/wamp64/www/protocole_se/vues/v_header.php",
+		"/C/wamp64/www/protocole_se/lib/js/fct.js",
+		"/C/wamp64/www/GeoWorld/assets/library/jquery-3.1.1.js",
 		"/C/wamp64/www/GeoWorld/assets/bootstrap-4.2.1-dist/css/bootstrap.css",
 		"/C/wamp64/www/GeoWorld/inc/manager-db.php",
 		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/PPE/PPE4/world/ressources/world-schema.sql",
@@ -672,7 +697,6 @@
 		"/C/wamp64/www/protocole_se/image/ressources/index.php",
 		"/C/wamp64/www/protocole_se/lib/php/BBCode.class.php",
 		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa9228.4407/BBCode.class.php",
-		"/C/wamp64/www/protocole_se/vues/v_entete.php",
 		"/C/wamp64/www/protocole_se/lib/js/bbcode.js",
 		"/C/wamp64/www/protocole_se/vues/news/index.php",
 		"/C/wamp64/www/protocole_se/vues/feedback/v_formulaire.php",
@@ -700,7 +724,6 @@
 		"/C/wamp64/www/siteweb/pages/compte/fonctions/expiresession.php",
 		"/C/wamp64/www/protocole_se/vues/compte/profil/v_modificationprofil2.php",
 		"/C/wamp64/www/protocole_se/vues/compte/admin/v_modifaction_fiches.php",
-		"/C/wamp64/www/protocole_se/lib/js/fct.js",
 		"/C/wamp64/www/protocole_se/vues/v_choix_date_fiche.php",
 		"/C/wamp64/www/protocole_se/styles/style.css",
 		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa21148.41307/se_sheet_database.sql",
@@ -714,7 +737,6 @@
 		"/C/wamp64/www/protocole_se/vues/compte/profil/index.php",
 		"/C/wamp64/www/protocole_se/vues/compte/admin/v_export.php",
 		"/C/wamp64/www/protocole_se/vues/mdp_oublier/v_traitement_mail.php",
-		"/C/wamp64/www/protocole_se/vues/v_header.php",
 		"/C/wamp64/www/protocole_se/vues/compte/v_barre_navigation_anonyme.php",
 		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_barre_navigation_moderateur.php",
 		"/C/wamp64/www/protocole_se/vues/compte/membre/v_barre_navigation_membre.php",
@@ -735,13 +757,11 @@
 		"/C/wamp64/www/protocole_se/vues/compte/mesfiches/v_supprimer_mesfiches.php",
 		"/C/wamp64/www/protocole_se/controleurs/c_explore.php",
 		"/C/wamp64/www/protocole_se/.htaccess",
-		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_supprimer_screenshot_moderateur.php",
-		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_supprimer_fiche_moderateur.php",
-		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_modifier_fiche_moderateur.php"
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_supprimer_screenshot_moderateur.php"
 	],
 	"find":
 	{
-		"height": 70.4
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -773,24 +793,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1994,
+						"buffer_size": 3006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1822,
+								1822
 							]
 						],
 						"settings":
@@ -803,24 +823,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "header.php",
+					"file": "css/custom.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3048,
+						"buffer_size": 1785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1939,
-								1939
+								1783,
+								1783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 938.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1955,
+								1955
 							]
 						],
 						"settings":
@@ -830,10 +880,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.4,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/fct.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

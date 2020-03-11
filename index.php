@@ -5,17 +5,12 @@
   <div id="liste" class="container">
     <div>
       <?php if(isset($_POST['Continent'])) { 
-
         $leContinentSelec = $_POST['Continent'];
           ?>
         <h1>Les pays en <?php echo $leContinentSelec; ?> </h1>
-
-              
       <div>
           <?php
             require_once 'inc/manager-db.php';
-              
-            //$continent = '$leContinentSelec';
             $desPays = getCountriesByContinent($leContinentSelec);
            
            foreach ($desPays as $unPays) {
@@ -43,7 +38,6 @@
           le nom des colonnes de la table interrogée par un requête SQL, via l'appel à la
           fonction <b><code>getCountriesByContinent</code></b> (du script <b><code>manager-db.php</code></b>.</p>
         <p>Par exemple <b><code>Name</code></b> est une des colonnes de la relation (table) <b><code>Country</code></b>)</p>
-
       </div>
     </section>
   </div>
