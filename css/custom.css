@@ -74,3 +74,7 @@ code {
 .clickable {
   cursor: pointer;
 }
+
+.dropdown-item:focus, .dropdown-item:hover {
+	background-color: #dae3ec;
+}
