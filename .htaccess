@@ -1,0 +1,21 @@
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+RewriteEngine on
+RewriteBase /
+#--------------------------------------------------
+# Règles de réécriture d'URL :
+#--------------------------------------------------
+
+RewriteRule ^(.*)-(.*)-id(.*).html$   index.php?action=$1&ssaction=$2&id=$3 [L]
+RewriteRule ^(.*)-(.*).html$   index.php?action=$1&ssaction=$2 [L]
+RewriteRule ^(.*).html$   index.php?action=$1 [L]
