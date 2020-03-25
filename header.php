@@ -44,6 +44,9 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
+        <?php
+        if($action == 'accueil') {
+        ?> 
         <li class="nav-item dropdown">
           <div class="nav-link dropdown-toggle clickable" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
              aria-expanded="false">Continent</div>
@@ -60,6 +63,9 @@
             ?> 
           </div>
         </li>
+        <?php
+        }
+        ?>
         
       </ul>
       <ul class="navbar-nav ml-auto">
