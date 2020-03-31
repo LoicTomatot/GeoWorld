@@ -19,13 +19,16 @@ switch ($action) {
     include("vues/todo-projet.php");
     break;
   case 'login':
+  include('header.php');
     include("vues/login.php");
     break;
   case 'register':
+    include('header.php');
     include("vues/register.php");
     break;
   
   default:
+    include('header.php');
     include("vues/accueil.php");
     break;
 }

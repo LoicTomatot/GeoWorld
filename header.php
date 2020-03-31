@@ -36,14 +36,11 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="accueil.html">Accueil</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+        <?php
+        if($action == 'accueil') {
+        ?> 
         <li class="nav-item dropdown">
           <div class="nav-link dropdown-toggle clickable" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
              aria-expanded="false">Continent</div>
@@ -60,6 +57,9 @@
             ?> 
           </div>
         </li>
+        <?php
+        }
+        ?>
         
       </ul>
       <ul class="navbar-nav ml-auto">
