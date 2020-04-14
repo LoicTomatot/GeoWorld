@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"rec",
+				"recherche"
+			],
+			[
 				"dro",
 				"dropdown-toggle"
 			],
@@ -510,10 +514,6 @@
 			[
 				"Goto",
 				"GotoLocation"
-			],
-			[
-				"Wait",
-				"WaitMessage"
 			]
 		]
 	},
@@ -541,9 +541,9 @@
 			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 1861,
+				"buffer_size": 1863,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -657,6 +657,8 @@
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/protocole_se/vues/explorer/v_liste_archive.php",
+		"/C/Users/Alan DESMURS/Videos/US/captions.sbv",
 		"/C/wamp64/www/protocole_se/index.php",
 		"/C/wamp64/www/enferpositif/index.php",
 		"/C/wamp64/www/api_drep/drepagirweb/drepagirweb/views.py",
@@ -688,7 +690,6 @@
 		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_membre.php",
 		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_anonyme.php",
 		"/C/wamp64/www/protocole_se/vues/barres_navigation/v_barre_navigation_admin.php",
-		"/C/wamp64/www/protocole_se/vues/explorer/v_liste_archive.php",
 		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/views/footer.ejs",
 		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/views/page.ejs",
 		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/SLAM4/02-Node-Express/exempleEJS/views/header.ejs",
@@ -783,12 +784,11 @@
 		"/C/wamp64/www/protocole_se/lib/clipboardjs/clipboard.js",
 		"/C/wamp64/www/protocole_se/lib/clipboardjs/clipboard.min.js",
 		"/C/wamp64/www/protocole_se/vues/compte/admin/v_fiches_admin.php",
-		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_fiches_moderateur.php",
-		"/C/wamp64/www/protocole_se/vues/compte/admin/v_modifier_fiche_admin.php"
+		"/C/wamp64/www/protocole_se/vues/compte/moderateur/v_fiches_moderateur.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 70.4
 	},
 	"find_in_files":
 	{
@@ -885,7 +885,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1861,
+						"buffer_size": 1863,
 						"regions":
 						{
 						},
@@ -963,7 +963,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 95.0,
+						"translation.y": 95.2,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

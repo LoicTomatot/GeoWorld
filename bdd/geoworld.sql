@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mer. 25 mars 2020 à 19:11
+-- Généré le :  mar. 14 avr. 2020 à 19:00
 -- Version du serveur :  5.7.24
 -- Version de PHP :  7.2.14
 
@@ -5898,7 +5898,14 @@ CREATE TABLE IF NOT EXISTS `utilisateur` (
   `telephone` int(11) NOT NULL,
   `mail` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `utilisateur`
+--
+
+INSERT INTO `utilisateur` (`id`, `statut`, `identifiant`, `motdepasse`, `nom`, `prenom`, `telephone`, `mail`) VALUES
+(1, 'admin', 'admin', 'admin', 'admin', 'admin', 0, 'test@admin.fr');
 
 --
 -- Contraintes pour les tables déchargées
