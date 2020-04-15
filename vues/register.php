@@ -9,7 +9,7 @@
     <body> 
         <fieldset>     
         <legend>Inscription</legend>
-        <form method="post">
+        <form method="post" action="enregistrement.html">
             
             <input type="text" placeholder="Votre nom" name="nom" value="<?php if(isset($nom)){ echo $nom; }?>" required>   
             

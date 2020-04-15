@@ -2,6 +2,7 @@
 // On lance une session
 session_start();
 require_once("vues/v_connectbdd.php");
+require_once("php/fct.php");
 // On vérifie si une action est effectué
 if(!isset($_REQUEST['action'])) {
   $action = "accueil";
@@ -27,9 +28,18 @@ switch ($action) {
     include('header.php');
     include("vues/register.php");
     break;
+  case 'enregistrement':
+    if(isset($_REQUEST['inscription'])) {
+      include('header.php');
+      include("vues/v_inscription.php");
+      include("vues/register.php");
+    }
+    break;
   case 'compte':
-    include('vues/compte/header_compte.php');
-    include("vues/register.php");
+    if(isset($_REQUEST['inscription'])) {
+      include('vues/compte/header_compte.php');
+      include("vues/register.php");
+    }
     break;
   default:
     include('header.php');
