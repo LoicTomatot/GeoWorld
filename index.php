@@ -36,10 +36,21 @@ switch ($action) {
     }
     break;
   case 'compte':
-    if(isset($_REQUEST['inscription'])) {
-      include('vues/compte/header_compte.php');
-      include("vues/register.php");
+    include('vues/compte/v_connexion.php');
+    if(isset($_SESSION['membre']) && isset($estadmin)) {
+      include('controleurs/c_admin.php');
     }
+    elseif(isset($_SESSION['membre']) && isset($estprof)) {
+      include('controleurs/c_prof.php');
+    }
+    break;
+  case 'deconnexion':
+    unset($_SESSION['membre']);
+    include('header.php');
+    ?>
+    <div class="erreurs">Vous êtes déconnecté !</div>
+    <?php
+    include("vues/login.php");
     break;
   default:
     include('header.php');
