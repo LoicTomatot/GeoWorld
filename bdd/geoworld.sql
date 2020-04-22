@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 14 avr. 2020 à 19:00
+-- Généré le :  mer. 22 avr. 2020 à 18:40
 -- Version du serveur :  5.7.24
 -- Version de PHP :  7.2.14
 
@@ -4130,6 +4130,17 @@ INSERT INTO `city` (`id`, `idCountry`, `Name`, `District`, `Population`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `code_enseignant`
+--
+
+DROP TABLE IF EXISTS `code_enseignant`;
+CREATE TABLE IF NOT EXISTS `code_enseignant` (
+  `code` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `country`
 --
 
@@ -5898,14 +5909,16 @@ CREATE TABLE IF NOT EXISTS `utilisateur` (
   `telephone` int(11) NOT NULL,
   `mail` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `utilisateur`
 --
 
 INSERT INTO `utilisateur` (`id`, `statut`, `identifiant`, `motdepasse`, `nom`, `prenom`, `telephone`, `mail`) VALUES
-(1, 'admin', 'admin', 'admin', 'admin', 'admin', 0, 'test@admin.fr');
+(1, 'admin', 'admin', 'sa1aY64JOY94w', 'admin', 'admin', 0, 'test@admin.fr'),
+(2, 'prof', 'test', 'salSp1wOPp6fk', 'DESMURS', 'Alan', 1234567890, 'test@test.fr'),
+(3, 'prof', 'test2', 'salSp1wOPp6fk', 'DESMURS', 'Alan', 53636333, 'test@test.fr');
 
 --
 -- Contraintes pour les tables déchargées
