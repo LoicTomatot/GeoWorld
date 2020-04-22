@@ -43,6 +43,10 @@ switch ($action) {
     elseif(isset($_SESSION['membre']) && isset($estprof)) {
       include('controleurs/c_prof.php');
     }
+    else {
+      include('header.php');
+      include("vues/login.php");
+    }
     break;
   case 'deconnexion':
     unset($_SESSION['membre']);
