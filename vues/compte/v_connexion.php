@@ -4,8 +4,10 @@ if(isset($_REQUEST['envoie'])) {
 	$password = $_REQUEST['password'];
 	$motdepasse = crypt($password,'salt');
 	$req_check = $bdd->query('SELECT * FROM utilisateur');
+	$identifiantscorrect = 0;
 	while ($utilisateur = $req_check->fetch()) {
 		if($username == $utilisateur['identifiant'] && $motdepasse == $utilisateur['motdepasse']) {
+			$identifiantscorrect = 1;
 			$_SESSION['membre'] = recupererUtilisateur($bdd,$utilisateur['id']);
 			if($_SESSION['membre']['statut'] == 'admin') {
 				$estadmin = $_SESSION['membre']['statut'];
@@ -14,6 +16,9 @@ if(isset($_REQUEST['envoie'])) {
 				$estprof = $_SESSION['membre']['statut'];
 			}
 		}
+	}
+	if($identifiantscorrect == 0) {
+		$erreurs = "Vos identifiants sont incorrectes.";
 	}
 	if(isset($erreurs)) {
 		?>
