@@ -8,11 +8,11 @@ else {
 // On vérifie la valeur de l'action et on exécute celle correspondante
 switch ($ssaction) {
   case 'accueil':
-    include('vues/compte/header_compte.php');
+    include('vues/compte/admin/header_admin.php');
     include("vues/compte/admin/accueil_admin.php");
     break;
   default:
-    include('vues/compte/header_compte.php');
+    include('vues/compte/admin/header_admin.php');
     include("vues/compte/admin/accueil_admin.php");
     break;
 }
