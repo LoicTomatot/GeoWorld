@@ -14,6 +14,9 @@ if(isset($_REQUEST['envoie'])) {
 				$estprof = $_SESSION['membre']['statut'];
 			}
 		}
+		else {
+			$erreurs = "Vos identifiants sont incorrectes.";
+		}
 	}
 	if(isset($erreurs)) {
 		?>
