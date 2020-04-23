@@ -15,6 +15,10 @@ switch ($ssaction) {
     include('vues/compte/admin/header_admin.php');
     include("vues/compte/admin/gen_code.php");
     break;
+  case 'utilisateurs':
+    include('vues/compte/admin/header_admin.php');
+    include("vues/compte/admin/liste_utilisateurs.php");
+    break;
   default:
     include('vues/compte/admin/header_admin.php');
     include("vues/compte/admin/accueil_admin.php");

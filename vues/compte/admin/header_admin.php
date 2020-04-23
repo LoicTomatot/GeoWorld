@@ -39,6 +39,9 @@
           <a class="nav-link" href="compte-gencode.html">Générer</a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" href="compte-utilisateurs.html">Utilisateurs</a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" href="deconnexion.html">Déconnexion</a>
         </li>
       </ul>
