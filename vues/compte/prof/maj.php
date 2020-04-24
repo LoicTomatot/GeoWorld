@@ -6,6 +6,7 @@ $desContinents = getAllContinents();
 <form method="POST">
 <label for="form-control form-control-sm">Choisissez un continent</label>
 <select name="a" class="form-control form-control-sm">
+    <option>-- Choisissez un continent --</option>
 	<?php foreach ($desContinents as $unContinent) {
 		$leContinent = $unContinent->Continent ; 
 		?>
