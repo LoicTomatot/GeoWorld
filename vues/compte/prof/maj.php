@@ -9,26 +9,31 @@ $desContinents = getAllContinents();
 	<?php foreach ($desContinents as $unContinent) {
 		$leContinent = $unContinent->Continent ; 
 		?>
-		<option ><div class="dropdown-item" onclick="listePays('<?php echo $leContinent; ?>')"><?php echo $leContinent; ?></div></option>
+		<option onclick="listePaysProf('<?php echo $leContinent; ?>')" ><div class="dropdown-item"><?php echo $leContinent; ?></div></option>
 	<?php
 	}
 	?> 
 </select>
 </form>
-<?php 
-if(isset($_POST['a'])) {
-
-        $leContinentSelec = $leContinent;
-        $desPays = getCountriesByContinent($leContinentSelec);
-    ?>
-
-    <label for="form-control form-control-sm">Choisissez un pays</label>
-    <select class="form-control form-control-sm">
-    <?php foreach ($desPays as $unPays) {
-        echo $unPays->Name."<br />";
-        } 
-    }
-?>
+<div id="liste" class="container">
+    <div>
+      <?php if(isset($_POST['Continent'])) { 
+        $leContinentSelec = $_POST['Continent'];
+          ?>
+        <h1>Les pays en <?php echo $leContinentSelec; ?> </h1>
+      <div>
+          <?php
+            require_once 'inc/manager-db.php';
+            $desPays = getCountriesByContinent($leContinentSelec);
+           
+           foreach ($desPays as $unPays) {
+            echo "<a href='infospays-pays".$unPays->id.".html'>".$unPays->Name."</a><br/>";
+           } 
+        }
+      ?>
+      </div>
+    </div>
+</div>
         
        
 
