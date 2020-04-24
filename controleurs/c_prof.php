@@ -11,6 +11,12 @@ switch ($ssaction) {
     include('vues/compte/prof/header_prof.php');
     include("vues/compte/prof/accueil_prof.php");
     break;
+
+  case 'maj':
+    include('vues/compte/prof/header_prof.php');
+    include('vues/compte/prof/maj.php');
+    break;
+
   default:
     include('vues/compte/prof/header_prof.php');
     include("vues/compte/prof/accueil_prof.php");
