@@ -16,6 +16,10 @@ switch ($action) {
     include('header.php');
     include("vues/accueil.php");
     break;
+  case 'infospays':
+    include('header.php');
+    include("vues/v_infopays.php");
+    break;
   case 'todo':
     include('header.php');
     include("vues/todo-projet.php");

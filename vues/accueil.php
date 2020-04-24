@@ -12,7 +12,7 @@
             $desPays = getCountriesByContinent($leContinentSelec);
            
            foreach ($desPays as $unPays) {
-            echo $unPays->Name."<br />";
+            echo "<a href='infospays-pays".$unPays->id.".html'>".$unPays->Name."</a><br/>";
            } 
         }
       ?>
