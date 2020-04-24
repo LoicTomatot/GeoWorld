@@ -17,5 +17,6 @@ RewriteBase /
 #--------------------------------------------------
 
 RewriteRule ^(.*)-(.*)-id(.*).html$   index.php?action=$1&ssaction=$2&id=$3 [L]
+RewriteRule ^(.*)-pays(.*).html$   index.php?action=$1&idpays=$2 [L]
 RewriteRule ^(.*)-(.*).html$   index.php?action=$1&ssaction=$2 [L]
 RewriteRule ^(.*).html$   index.php?action=$1 [L]
