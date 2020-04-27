@@ -8,7 +8,7 @@
             <!-- zone de connexion -->
             
             <form action="compte.html" method="POST">
-                <h1>Connexion</h1>
+                <center><h1>Connexion</h1>
                 
                 <label><b>Nom d'utilisateur</b></label><br />
                 <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required><br />
@@ -16,7 +16,7 @@
                 <label><b>Mot de passe</b></label><br />
                 <input type="password" placeholder="Entrer le mot de passe" name="password" required><br /><br />
 
-                <input type="submit" id='submit' name="envoie" value='Se connecter'>
+                <input type="submit" id='submit' name="envoie" value='Se connecter'></center>
             </form>
         </div>
     </body>
