@@ -89,6 +89,9 @@ code {
 .bg-primary {
   background-color: #2395c1 !important;
 }
+.bg-prof {
+  background-color: #a26c3d !important;
+}
 #logo_accueil {
   position: absolute;
   width: 75vw;
@@ -98,4 +101,28 @@ code {
   background-color: #0000008f;
   padding: 1vw 6vw;
   border-radius: 8vw;
+}
+#selectusers {
+  width: 12vw;
+  text-align: center;
+  margin: 1vw;
+  position: relative;
+  display: inline-block;
+}
+#execute_button {
+  position: relative;
+  display: inline-block;
+  border: #da3838 2px solid;
+  background-color: #c67474;
+  border-radius: 0.7vw;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  padding: 0.5vw;
+}
+#execute_button:hover {
+  background-color: #ffa4a4;
+  border: #e65c5c 2px solid;
+  transform: scale(1.05);
 }
