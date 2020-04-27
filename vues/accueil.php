@@ -19,6 +19,16 @@
       </div>
     </div>
     <p></p>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="vues/carteMonde.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="vues/map.jpg" alt="Second slide">
+    </div>
+  </div>
+</div>
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Tableau d'objets</h1>
