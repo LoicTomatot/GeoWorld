@@ -1,6 +1,7 @@
 <?php
 $idpays = $_REQUEST['idpays'];
 $req=$bdd->query('SELECT * FROM Country WHERE id ='.$idpays);
+
 while($pays = $req->fetch()){
 	echo $pays['Name'];
 	echo $pays['Continent'];
