@@ -89,3 +89,13 @@ code {
 .bg-primary {
   background-color: #2395c1 !important;
 }
+#logo_accueil {
+  position: absolute;
+  width: 75vw;
+  z-index: 999;
+  left: 11.5vw;
+  top: 17vw;
+  background-color: #0000008f;
+  padding: 1vw 6vw;
+  border-radius: 8vw;
+}

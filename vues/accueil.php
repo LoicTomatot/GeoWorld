@@ -21,6 +21,7 @@
     <p></p>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
+    <img id="logo_accueil" src="images/logo.png">
     <div class="carousel-item active">
       <img class="d-block w-100" src="vues/carteMonde.jpg" alt="First slide">
     </div>
