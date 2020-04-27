@@ -26,8 +26,13 @@
 </head>
 <body class="d-flex flex-column h-100">
 <header>
+<<<<<<< HEAD
   <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
     <a class="navbar-brand" href="index.php">GeoWorld</a>
+=======
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.php"><img id="logo" src="images/logo-01.png"></a>
+>>>>>>> 1023d07ae8c000019c559d0a4373b14606651b80
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
