@@ -43,7 +43,7 @@
         ?> 
         <li class="nav-item dropdown">
           <div class="nav-link dropdown-toggle clickable" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-             aria-expanded="false">Continent</div>
+             aria-expanded="false">Continents</div>
           <div class="dropdown-menu clickable" aria-labelledby="dropdown01">
             <?php  
               require_once 'inc/manager-db.php';
