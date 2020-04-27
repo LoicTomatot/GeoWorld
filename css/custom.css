@@ -86,3 +86,6 @@ code {
 #logo {
   width: 12vw;
 }
+.bg-primary {
+  background-color: #2395c1 !important;
+}
