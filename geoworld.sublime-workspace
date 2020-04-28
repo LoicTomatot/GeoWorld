@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"formtarget\tAttr"
+			],
+			[
+				"on",
+				"onselect\tAttr"
+			],
+			[
+				"req",
+				"req_select_users"
+			],
+			[
 				"liste",
 				"listeNouvCodes"
 			],
@@ -260,10 +272,6 @@
 				"membre_liste"
 			],
 			[
-				"form",
-				"form_modif_fiche"
-			],
-			[
 				"nouv",
 				"nouv_description"
 			],
@@ -506,14 +514,6 @@
 			[
 				"sha",
 				"box-shadow\tproperty"
-			],
-			[
-				"bakc",
-				"background-color\tproperty"
-			],
-			[
-				"Ban",
-				"bahnschrift"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": ".htaccess",
 			"settings":
 			{
-				"buffer_size": 652,
+				"buffer_size": 721,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -538,15 +538,6 @@
 			}
 		},
 		{
-			"file": "js/fct.js",
-			"settings":
-			{
-				"buffer_size": 167,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "php/fct.php",
 			"settings":
 			{
@@ -556,10 +547,27 @@
 			}
 		},
 		{
+			"file": "js/fct.js",
+			"settings":
+			{
+				"buffer_size": 354,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/bootstrap-4.2.1-dist/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 188998,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 1905,
+				"buffer_size": 2689,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -568,7 +576,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 2891,
+				"buffer_size": 2924,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -577,16 +585,25 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1596,
+				"buffer_size": 1690,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "vues/compte/v_connexion.php",
+			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 1175,
+				"buffer_size": 176,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vues/compte/admin/header_admin.php",
+			"settings":
+			{
+				"buffer_size": 1680,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -595,70 +612,16 @@
 			"file": "controleurs/c_admin.php",
 			"settings":
 			{
-				"buffer_size": 656,
+				"buffer_size": 798,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "vues/compte/admin/header_admin.php",
+			"file": "vues/compte/admin/liste_utilisateurs.php",
 			"settings":
 			{
-				"buffer_size": 1517,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vues/compte/admin/accueil_admin.php",
-			"settings":
-			{
-				"buffer_size": 78,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vues/login.php",
-			"settings":
-			{
-				"buffer_size": 809,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vues/register.php",
-			"settings":
-			{
-				"buffer_size": 1631,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp64/www/protocole_se/vues/v_upload.php",
-			"settings":
-			{
-				"buffer_size": 23038,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vues/compte/admin/gen_code.php",
-			"settings":
-			{
-				"buffer_size": 868,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "vues/compte/admin/generation.php",
-			"settings":
-			{
-				"buffer_size": 671,
+				"buffer_size": 1248,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -733,30 +696,38 @@
 	"expanded_folders":
 	[
 		"/C/wamp64/www/GeoWorld",
-		"/C/wamp64/www/GeoWorld/vues",
-		"/C/wamp64/www/GeoWorld/vues/compte",
-		"/C/wamp64/www/GeoWorld/vues/compte/admin",
-		"/C/wamp64/www/GeoWorld/vues/compte/prof"
+		"/C/wamp64/www/GeoWorld/vues"
 	],
 	"file_history":
 	[
-		"/C/wamp64/www/GeoWorld/vues/login.php",
+		"/C/wamp64/www/protocole_se/vues/help/v_help.php",
+		"/C/wamp64/www/protocole_se/lib/php/fct.php",
 		"/C/wamp64/www/GeoWorld/vues/compte/prof/header_prof.php",
+		"/C/wamp64/www/GeoWorld/vues/accueil.php",
+		"/C/wamp64/www/GeoWorld/assets/bootstrap-4.2.1-dist/css/bootstrap.css",
+		"/C/wamp64/www/GeoWorld/vues/v_infopays.php",
+		"/C/Users/Alan DESMURS/3D Objects/mod SE Gliese 581/gliese581c (ce que j'ai obtenu avec cubemap)/format mod/catalogs/planets/Haumea_SF.sc",
+		"/C/wamp64/www/GeoWorld/vues/compte/prof/maj.php",
+		"/C/wamp64/www/GeoWorld/js/fct.js",
+		"/C/wamp64/www/GeoWorld/inc/manager-db.php",
+		"/C/wamp64/www/GeoWorld/accueil.php",
+		"/C/wamp64/www/GeoWorld/vues/compte/v_connexion.php",
+		"/C/wamp64/www/GeoWorld/vues/compte/admin/accueil_admin.php",
+		"/C/wamp64/www/GeoWorld/vues/login.php",
+		"/C/wamp64/www/GeoWorld/vues/register.php",
+		"/C/wamp64/www/GeoWorld/vues/compte/admin/generation.php",
+		"/C/wamp64/www/GeoWorld/vues/compte/admin/gen_code.php",
+		"/C/wamp64/www/protocole_se/vues/v_upload.php",
 		"/C/wamp64/www/GeoWorld/vues/compte/prof/accueil_prof.php",
 		"/C/wamp64/www/protocole_se/vues/connexion/v_post_inscription.php",
-		"/C/wamp64/www/protocole_se/vues/v_upload.php",
 		"/C/wamp64/www/enferpositif/lib/js/fct.js",
 		"/C/wamp64/www/protocole_se/lib/js/fct.js",
 		"/C/wamp64/www/GeoWorld/vues/compte/header_compte.php",
 		"/C/wamp64/www/GeoWorld/bdd/geoworld.sql",
 		"/C/wamp64/www/GeoWorld/controleurs/c_prof.php",
-		"/C/wamp64/www/GeoWorld/vues/compte/v_connexion.php",
-		"/C/wamp64/www/GeoWorld/vues/compte/admin/accueil_admin.php",
 		"/C/wamp64/www/GeoWorld/vues/compte/accueil_admin.php",
-		"/C/wamp64/www/GeoWorld/vues/register.php",
 		"/C/wamp64/www/GeoWorld/vues/v_inscription.php",
 		"/C/wamp64/www/GeoWorld/vues/v_connexion.php",
-		"/C/wamp64/www/GeoWorld/accueil.php",
 		"/C/Users/Alan DESMURS/Downloads/TP2_test.db",
 		"/C/wamp64/www/protocole_se/vues/explorer/v_liste_archive.php",
 		"/C/Users/Alan DESMURS/Videos/US/captions.sbv",
@@ -773,8 +744,6 @@
 		"/C/wamp64/www/protocole_se/vues/v_entete.php",
 		"/C/wamp64/www/protocole_se/vues/v_header.php",
 		"/C/wamp64/www/GeoWorld/assets/library/jquery-3.1.1.js",
-		"/C/wamp64/www/GeoWorld/assets/bootstrap-4.2.1-dist/css/bootstrap.css",
-		"/C/wamp64/www/GeoWorld/inc/manager-db.php",
 		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/PPE/PPE4/world/ressources/world-schema.sql",
 		"/C/Users/Alan DESMURS/Desktop/Développement/BTS SIO 2019-2020/PPE/PPE4/world/ressources/world-data.sql",
 		"/C/wamp64/www/GeoWorld/inc/connect-db.php",
@@ -858,16 +827,7 @@
 		"/C/wamp64/www/siteweb/pages/compte/fonctions/expiresession.php",
 		"/C/wamp64/www/protocole_se/vues/compte/profil/v_modificationprofil2.php",
 		"/C/wamp64/www/protocole_se/vues/compte/admin/v_modifaction_fiches.php",
-		"/C/wamp64/www/protocole_se/vues/v_choix_date_fiche.php",
-		"/C/wamp64/www/protocole_se/styles/style.css",
-		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa21148.41307/se_sheet_database.sql",
-		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa11768.39151/se_sheet_database.sql",
-		"/C/wamp64/www/protocole_se/lib/DBDump/dumper.php",
-		"/C/Users/Alan DESMURS/AppData/Local/Temp/Rar$DIa5820.27487/se_sheet_database.sql",
-		"/C/wamp64/www/protocole_se/bdd/dbs202188.sql",
-		"/C/wamp64/www/protocole_se/lib/DBDump/demo.php",
-		"/C/wamp64/www/protocole_se/controleurs/c_membre.php",
-		"/C/wamp64/www/protocole_se/controleurs/c_moderateur.php"
+		"/C/wamp64/www/protocole_se/vues/v_choix_date_fiche.php"
 	],
 	"find":
 	{
@@ -906,7 +866,7 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 11,
 			"sheets":
 			[
 				{
@@ -915,15 +875,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 652,
+						"buffer_size": 721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								625,
-								625
+								0,
+								0
 							]
 						],
 						"settings":
@@ -934,7 +894,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -963,39 +923,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/fct.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								167,
-								167
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "php/fct.php",
 					"semi_transient": false,
 					"settings":
@@ -1020,24 +952,52 @@
 						"translation.y": 95.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "css/custom.css",
+					"buffer": 3,
+					"file": "js/fct.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1905,
+						"buffer_size": 354,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1863,
-								1863
+								177,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/bootstrap-4.2.1-dist/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 188998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129740,
+								129740
 							]
 						],
 						"settings":
@@ -1047,57 +1007,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1140.0,
+						"translation.y": 121319.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "header.php",
+					"file": "css/custom.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2891,
+						"buffer_size": 2689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2869,
-								2869
+								2689,
+								2689
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 950.0,
+						"translation.y": 2119.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "index.php",
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1596,
+						"buffer_size": 2924,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1204,
-								1204
+								778,
+								778
 							]
 						],
 						"settings":
@@ -1107,33 +1067,62 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 494.0,
+						"translation.y": 209.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "vues/compte/v_connexion.php",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1175,
+						"buffer_size": 1690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								771,
-								771
+								1308,
+								1308
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 133.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1143,50 +1132,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "controleurs/c_admin.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 656,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								275,
-								275
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
 					"buffer": 9,
 					"file": "vues/compte/admin/header_admin.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1517,
+						"buffer_size": 1680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								713,
-								1516
+								781,
+								781
 							]
 						],
 						"settings":
@@ -1199,166 +1158,54 @@
 						"translation.y": 285.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "vues/compte/admin/accueil_admin.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 78,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								69,
-								69
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "vues/login.php",
+					"buffer": 10,
+					"file": "controleurs/c_admin.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 809,
+						"buffer_size": 798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								145,
-								125
+								589,
+								589
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "vues/register.php",
+					"buffer": 11,
+					"file": "vues/compte/admin/liste_utilisateurs.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1631,
+						"buffer_size": 1248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1602,
-								1602
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/wamp64/www/protocole_se/vues/v_upload.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23038,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21303,
-								21303
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8265.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "vues/compte/admin/gen_code.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 868,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								835,
-								835
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "vues/compte/admin/generation.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								541,
-								541
+								435,
+								435
 							]
 						],
 						"settings":
@@ -1370,7 +1217,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
