@@ -19,7 +19,7 @@
 	            <input type="identifiant" placeholder="identifiant" name="identifiant" value="<?php if(isset($identifiant)){ echo $identifiant; }?>" required><br /><br />
 	            <input type="password" placeholder="Mot de passe" name="mdp" value="<?php if(isset($mdp)){ echo $mdp; }?>" required><br />
 	            <input type="password" placeholder="Confirmer le mot de passe" name="confmdp" required><br /><br />
-			<input type="submit" name="inscription" value="S'incrire"></center>
+			<input type="submit" name="inscription" value="S'inscrire"></center>
 	        </form>
 		</div>
     </body>
